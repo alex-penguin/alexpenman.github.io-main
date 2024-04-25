@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alex Penman's Blog</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="banner">
+            <img src="Banner.png" alt="Banner">         
+        </div>
+        <div class="nav-container">
+            <nav>
+            <a href="#" id="en" class="lang-btn">English</a>
+            <a href="#" id="es" class="lang-btn">Español</a>
+            <a href="#" id="fr" class="lang-btn">Français</a>
+            <a href="#" id="de" class="lang-btn">Deutsch</a>
+            <a href="#" id="it" class="lang-btn">Italiano</a>
+            <a href="#" id="pt" class="lang-btn">Português</a>
+            <a href="#" id="ru" class="lang-btn">Русский</a>
+            <a href="#" id="ne" class="lang-btn">Nederlands</a>
+            <a href="#" id="po" class="lang-btn">Polski</a>
+            <a href="#" id="ar" class="lang-btn">العربية</a>
+            <a href="#" id="zh" class="lang-btn">中文</a>
+            <a href="#" id="ja" class="lang-btn">日本語</a>
+            <a href="#" id="ko" class="lang-btn">한국어</a>
+            <a href="#" id="hi" class="lang-btn">हिन्दी</a>
+            <a href="#" id="sv" class="lang-btn">Svenska</a>     
+            <a href="#" id="da" class="lang-btn">Dansk</a>
+            <a href="#" id="no" class="lang-btn">Norsk</a>  
+            <a href="#" id="he" class="lang-btn">עברית</a>
+            <a href="#" id="tu" class="lang-btn">Türkçe</a>
+            <a href="#" id="gr" class="lang-btn">Ελληνικά</a>
+            <a href="#" id="in" class="lang-btn">Bahasa Indonesia</a>
+        </nav>
+     </div>
+     
+
+    </header>
+    
+    <div id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a>
+                <li><a href="portfolio.html">My Portfolio</a>
+                <li><a href="about.html">About Me</a>
+                <li><a href="contact.html">Contact Me</a>
+            </ul>
+        </nav>    
+        <!-- Add more links as needed -->
+    </div>
+
+    <main>
+        
+        
+        <h1>Book an English Lesson</h1>
+
+        <h2>Lesson: prices (all prices are in USD)</h2>
+        <h3>FIRST CLASS IS HALF PRICE!!!</h3>
+        <p>Private class (Just you) = $150 casual class, $700 for 5 classes, $1300 for 10 classes  <br>
+        Small class (maximum 4 students) = $40 casual class, $180 for 5 classes<br>
+        Medium class (maximum 8 students) = $25 USD per hour, $110 for 5 classes, $210 for 10 classes <br>
+        Large class (maximum 16 students) = $15 USD per hour<br> 
+        Extra-large class (Maximum 50 students) = $5 per hour
+
+        Prices are the same for all levels.
+        </p>
+        <h2>Booking form:</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="lesson">Lesson size and price:</label><br>
+            <select id="lesson" name="lesson">
+                <option value="Private class">Privat Class</option>
+                <option value="Small class">Small class</option>
+                <option value="Medium class">Medium class</option>
+                <option value="Large class">Large class</option>
+            </select><br>
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date"><br>
+            <input type="submit" value="Book">
+        </form>
+    
+        <script src="booking.js"></script>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Alex Penman</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
